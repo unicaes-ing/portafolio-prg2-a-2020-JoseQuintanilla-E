@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace practica1eje1
+namespace practica_1
 {
     public partial class Form1 : Form
     {
@@ -19,12 +19,12 @@ namespace practica1eje1
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            decimal exa1, exa2, exa3, tot;
+            decimal exa1, exa2, exa3, prom;
             exa1 = Convert.ToDecimal(txtExa1.Text);
             exa2 = Convert.ToDecimal(txtExa2.Text);
             exa3 = Convert.ToDecimal(txtExa3.Text);
-            tot = (exa1 + exa2 + exa3)/3;
-            txtProm.Text = Convert.ToString(tot);
+            prom = (exa1 + exa2 + exa3)/3;
+            txtProm.Text = Convert.ToString(prom);
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace practica1eje1
             txtProm.Clear();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnsalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }

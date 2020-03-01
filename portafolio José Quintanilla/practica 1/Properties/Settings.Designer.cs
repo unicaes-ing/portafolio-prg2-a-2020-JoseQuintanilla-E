@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace practica_2.Properties
+namespace practica_1.Properties
 {
 
 
